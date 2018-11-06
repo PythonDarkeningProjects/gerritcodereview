@@ -1,0 +1,21 @@
+# UUID                                  	Group Name
+#
+1ca6bf8472c1de9e8758353597bde580c8bf5a78	STX-QE-Submitters
+2070f76ae64905a0d277a255a569f248de46b0a6	stx-test-suite-branch-stage-1-core
+48a349a926f3d2912ec6876e9d471a3bd27d2ff9	Non-Interactive Users
+42e05dec2fdcf29150615dec790535678d93b70f	Event Streaming Users
+6f5e7bbc51a19b75a831b205d549024ac7f5be78	stx-test-suite-branch-stage-1
+77dfd0e12754c3dd19b7013d73142a59ae83f979	Administrators
+95579f78517c465202249af7bf7269e7d5cb918f	STX-QE-Contributors
+9a9253ef44f445df0bc5250d3c3ee0b75042c513	stx-test-suite-branch-master-next
+c69ac882294024193411ce3c8c7f08905fe0d0bc	stx-test-suite-branch-master-next-core
+baf902a86f9c7f8a1eacd9dab797b611c0c77618	STX-QE-Core
+bd040f02ca5ddb88087d8c0c4a6d6012090ba293	stx-test-suite-branch-configuration-support
+d58839a0dc2666f7462ca0d1fa090185517995bd	stx-test-suite-branch-configuration-support-core
+cb37776aca474e9f0b0445f404b6347e3a3ad459	stx-test-suite-branch-master
+4f15e2007647cbacd2fd4debb102c2258d4525f6	stx-test-suite-branch-master-core
+cc7cd6ff01f339a231459f4b649c14c38c5b87aa	stx-test-suite-branch-baremetal
+c7331a62e7aefe4a2086f84efc03be3dd4b9c1b8	stx-test-suite-branch-baremetal-core
+global:Change-Owner                     	Change Owner
+global:Project-Owners                   	Project Owners
+global:Registered-Users                 	Registered Users

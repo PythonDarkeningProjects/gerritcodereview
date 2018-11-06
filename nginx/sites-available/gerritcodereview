@@ -1,0 +1,29 @@
+server {
+        listen 80;
+        server_name starlingxcodereview.intel.com;
+        return 301 https://$host$request_uri;
+}
+
+server {
+        listen 443;
+        server_name starlingxcodereview.intel.com;
+		
+		ssl on;
+		ssl_certificate conf.d/certificate.crt;
+		ssl_certificate_key conf.d/certificate.key;
+        location ^~ / {
+                proxy_pass        http://127.0.0.1:8081;
+                proxy_set_header  X-Forwarded-For $remote_addr;
+                proxy_set_header  Host $host;
+				error_page 500 502 503 504 /var/www/html/404.html;
+        }
+		location /avatars {
+				root /home/gerrit;
+				autoindex on;
+		}
+
+		location /isos {
+			root /home/gerrit;
+			autoindex on;
+		}
+}
